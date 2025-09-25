@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(192, 186, 247);
+    text-allign: center;
+    font-family: 'Trebuchet MS';
+
+}
+
+h1{
+    color: rgb(65, 56, 146); /* colocar em maiúsculo*/
+    font-family: Arial black;
+    letter-spacing: 3px;
+}
+
+h1:hover{
+    color: blueviolet;
+    cursor: crosshair;
+}
+
+input{
+    border: 1px solid #ececec;
+    border-radius: 3px;
+    margin: 3px;
+    font-size: 16px;
+}
+
+button{
+    border: 0;
+    background-color: rgb(111, 54, 185);
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    border: 1px solid purple;
+    background-color: white;
+    color: purple;
+}
+
+h3{
+    background-color: rgb(130, 91, 156);
+}
+
+span{
+    color: rgb(255, 255, 255);
+}
+
