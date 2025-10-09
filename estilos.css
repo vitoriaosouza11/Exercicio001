@@ -1,12 +1,53 @@
-.cartao{
-    background-color: teal!important;
-    transition: transform 0.5s ease;
+.cartao {
+  background-color: teal !important;
+  transition: transform 0.5s ease;
 }
 
-.cartao:hover{
-    transform: translateY(-10px);
+.cartao:hover {
+  transform: translateY(-10px);
 }
 
 .cartao p {
-  min-height: 100px; 
+  min-height: 100px;
+}
+
+.cartao {
+  background: linear-gradient(135deg, #5a6f8a, #7b8ca5);
+  color: #fff;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 12px;
+}
+
+.cartao:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+.cartao:nth-child(1) {
+  background: linear-gradient(135deg, #5a6f8a, #7b8ca5);
+}
+
+.cartao:nth-child(2) {
+  background: linear-gradient(135deg, #4a5c70, #6a7d8f);
+}
+
+.cartao:nth-child(3) {
+  background: linear-gradient(135deg, #3b4a5c, #55687a);
+}
+
+.cartao:nth-child(4) {
+  background: linear-gradient(135deg, #2e3b4a, #445366);
+}
+
+.cartao a.btn {
+  border: 2px solid #fff;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.cartao a.btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
 }
